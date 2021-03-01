@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name        showQuestionNameOnLeetCode.com
+// @author        摆渡人
 // @version     0.0
 // @description     显示力扣题库页面的题目名称
 // @namespace        https://ferrymanspace.github.io/
 // @grant       none
 // @match       *://leetcode-cn.com/problemset/*
 // @downloadURL      https://ferrymanspace.github.io/scripts/showQuestionNameOnLeetCode.user.js
-// ==UserScript==
+// ==/UserScript==
 (function(){
     "use strict";
     function setAriaHidden(){
