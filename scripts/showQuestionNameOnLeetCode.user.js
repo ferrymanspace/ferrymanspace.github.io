@@ -6,6 +6,7 @@
 // @grant       none
 // @downloadURL     https://ferrymanspace.github.io/scripts/showQuestionNameOnLeetCode.user.js
 // @match       *://leetcode-cn.com/problemset/*
+// @version        0.0
 // ==/UserScript==
 (function(){
     "use strict";
