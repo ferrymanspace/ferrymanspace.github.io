@@ -1,7 +1,9 @@
 (function () {
     "use strict";
     function playWhenLoaded() {
-        new Audio('/audio/index.wav').play();
+        if (window.location.pathname == '/') {
+            new Audio('/audio/index.wav').play();
+        }
     }
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', playWhenLoaded);
